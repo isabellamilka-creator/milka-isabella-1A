@@ -6,9 +6,9 @@ body{
 }
 
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 225, 225);
     padding: 10px;
-    border-bottom: 4px solid rgb(255, 0, 0);
+    border-bottom: 4px solid rgb(161, 88, 88);
     font-size: 25px;
     text-decoration: nome;
     display: flex;
@@ -39,11 +39,11 @@ margin-left: 20px;
 font-size: 20px;
 }
 header ul li a{
-    color: red;
+    color: rgb(155, 76, 76);
     text-decoration: none;
     transition: color 0.5s;
 }
 
 header ul li a:hover{
-    color: rgb(21, 0, 253);
+    color: rgb(255, 255, 255);
 }
