@@ -1,46 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-body{
-    background-color: oklch(92.067% 0.04162 8.582);
-    margin: 0;
-    color: ghostwhite;
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+body
+style
+background-color: pink;
+margin:0;
+color: black;
 }
 
+
 header{
-    background-color: pink;
-    padding: 10px;
-    border-bottom: 4px solid rgb(161, 124, 76);
-    font-size: 25px;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+background-color: whitesmoke;
+pedding: 10px;
+border-bottom: 4px solid rgb(197, 96, 50);
+font-size: 25px;
+text-decoration: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
 }
 
 header h3{
-    font-size: 40px;
-    font-family: font-family: "Inter", sans-serif;
-  font-style: normal;
-    color: white;
-    text-align: center;
+font-size: 40px;
+color: rgb(47, 142, 155);
+font-family: font-family: "BBH Sans Hegarty", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin: 0;
+
 }
 .nav ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+
 }
-.nav ul li {
+.nav ul li{
 margin-left: 20px;
 font-size: 20px;
 }
 
-header ul li a {
-color: hotpink;
-text-align: none;
-transition: color 0.5s;
+
+header ul li a{
+color: black;
+text-decoration: none;
+transition: color 0.5;
 }
-  
-header ul{
-    color: azure;
+
+header ul li a:hover{
+color: blue;
+
 }
