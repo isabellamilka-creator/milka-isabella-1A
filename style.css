@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
 body{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
     margin:0%;
-    color: rgb(255, 212, 225);
+    color: rgb(0, 0, 0);
 }
 
 header{
     background-color: rgb(255, 255, 255);
     padding: 10px;
-    border-bottom: 4px solid rgb(134, 49, 77);
+    border-bottom: 4px solid rgb(171, 88, 0);
     font-size: 25px;
     text-decoration: nome;
     display: flex;
@@ -39,13 +39,13 @@ margin-left: 20px;
 font-size: 20px;
 }
 header ul li a{
-    color: rgb(255, 234, 245);
+    color: rgb(192, 105, 0);
     text-decoration: none;
     transition: color 0.5s;
 }
 
 header ul li a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(187, 101, 20);
 }
 .foto{
     display: flex;
@@ -57,7 +57,7 @@ header ul li a:hover{
     width: 130px;
     height: 150px;
     margin: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(197, 149, 16);
 }
 .info{
     text-align: center;
